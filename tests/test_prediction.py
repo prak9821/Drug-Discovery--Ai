@@ -22,6 +22,6 @@ def test_is_molecule_generation_none(single_molecule_generation):
 
 
 def test_gen_molcule_dtype(single_molecule_generation):
-    assert  not isinstance(single_molecule_generation.get("Generated Valid Molecules"),str)
+    assert   isinstance(single_molecule_generation.get("Generated Valid Molecule"),str)
 
 
